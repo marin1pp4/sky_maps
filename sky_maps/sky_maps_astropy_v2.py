@@ -3,12 +3,13 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from astropy.coordinates import SkyCoord
 from astropy import units as u
-from astropy.coordinates import EarthLocation, AltAz
+from astropy.coordinates import EarthLocation, AltAz, get_sun
 from astropy.time import Time
 
 # Define observer's location and observation time
 observer_location = EarthLocation(lat=-20.0*u.deg, lon=20.0*u.deg, height=0.0*u.m)
 observation_time = Time('2023-10-09T18:00:00', format='isot', scale='utc')
+#elapsed = np.arange(0,24*60, 5)*u.min
 
 # Define a set of equatorial coordinates (RA and Dec) for demonstration
 ra_values = np.array([10, 20, 30, 40, 50])  # Right Ascension in degrees

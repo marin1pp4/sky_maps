@@ -1,0 +1,3 @@
+[submodule "star_maps"]
+	path = star_maps
+	url = https://github.com/ussserrr/starmap-northern-animation.git
