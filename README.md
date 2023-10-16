@@ -1,0 +1,3 @@
+# sky_maps
+This is a project to get use to sky maps creation using Python libraries like astropy, numpy, matplotlib, ...
+Here you can find two submodules which are based on @ussserrr repositories.
