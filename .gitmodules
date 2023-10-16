@@ -1,0 +1,6 @@
+[submodule "star_maps"]
+	path = star_maps
+	url = https://github.com/ussserrr/starmap-northern-animation.git
+[submodule "star_maps_static"]
+	path = star_maps_static
+	url = https://github.com/ussserrr/starmap-northern.git
